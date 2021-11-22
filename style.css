@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    background-image: url('./img/exam.png');
+    background-attachment: fixed;
+    color:#fff;
+    /*padding-bottom: 30px;*/
+}
+.login{
+height: auto;
+width: 100%;
+background: no-repeat;
+position: relative;
+padding-top: 20px;
+}
+.logo{
+/* position: absolute; */
+margin-left:-15px;
+/* top: 20px;  */
+margin-bottom: 30px;
+width: 150px;
+}
+.part1{
+background-color: #0f1335;
+width: 100%;
+height: auto;
+padding: 5px 20px 10px 20px;
+
+margin-bottom: 5px;
+border-radius:20px;
+
+}
+.part2{
+
+background-color: #0f1335;
+width: 100%;
+height: auto;
+padding: 20px ;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 5px;
+border-radius:20px;
+
+}
+/* .part2 blockquote{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+} */
+.form-control{
+background-color: #0f133591;
+color: #fff;
+}
+input{
+
+color: #fff;
+
+}
+select >option {
+background-color:#fff;
+/*color:crimson;*/
+color:#333;
+}
+.btn{
+background-color: rgb(12, 184, 12);
+color: #fff;
+margin-left: 16px;
+margin-top: 20px;
+border: none;
+padding: 10px 40px;
+
+}
+.btn:hover{
+color: azure;
+box-shadow: 1px 0px 4px 0px #fff;
+}
+.part{
+background-color: #0f1335;
+padding: 10px;
+border-radius:20px;
+margin-bottom:5px;
+}
+#quote::first-letter{
+color: crimson;
+font-size: 34px;
+
+}
+#quote{
+word-spacing: 0.5em;
+/* line-height: 20px;/ */
+}
